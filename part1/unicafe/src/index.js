@@ -10,7 +10,7 @@ const Statistics = (props) => {
   if(totalFeedback === 0) {
       return (
           <div>
-              <p>no votes given yet</p>
+              <p>No feedback given</p>
           </div>
       )
   }
@@ -29,7 +29,7 @@ const Statistics = (props) => {
 
 const StatisticLine = (props) => {      
   return (
-      <p>{props.text}: {props.value}</p>
+      <p>{props.text} {props.value}</p>
   )
 }
 
